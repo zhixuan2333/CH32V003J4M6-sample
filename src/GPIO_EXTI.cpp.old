@@ -96,7 +96,7 @@ int main(void)
   }
 }
 
-void EXTI7_0_IRQHandler(void) __attribute__((interrupt("WCH-Interrupt-fast")));
+extern "C" {void EXTI7_0_IRQHandler(void) __attribute__((interrupt("WCH-Interrupt-fast")));}
 
 /*********************************************************************
  * @fn      EXTI0_IRQHandler
