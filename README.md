@@ -24,6 +24,7 @@
 | **Standby/AWU** | `Standby-AWU` | Standby mode with auto wake-up timer |
 | **Standby/GPIO-EXTI** | `Standby-GPIO-EXTI` | Standby mode with GPIO EXTI wake-up |
 | **Standby/EXTI-User-Code** | `Standby-EXTI-User-Code` | Standby with EXTI interrupt handler |
+| **UART/DMA** | `UART-DMA` | UART communication using DMA |
 
 ## Usage
 
